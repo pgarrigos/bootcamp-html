@@ -16,3 +16,4 @@ Utilizamos los comandos git add, git commit, y git push.
 - br
 - hr
 - meta
+- img
