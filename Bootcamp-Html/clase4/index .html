@@ -6,15 +6,52 @@
      <title>Clase4</title>
      <link rel="stylesheet" href="./css/style.css" />
      <style>
-      h1 {
-        background-color: brown;
+        /*
+          Estilo creado para la clase h1 que se usa en el titulo
+          */
+      #h1Clase4 {
+        font-family: Arial;
+        background-color: chartreuse;
+      }
+      .h1Otro {
+        font-family: Impact;
+      }
+
+      h2 {
+        font-family:Arial;
+      }
+
+      div h2 {
+        background-color: blueviolet;
+      }
+
+      div h1 {
+        font-size: 1em;
+      }
+
+      h2.h1Otro {
+        font-family:Verdana;
       }
      </style>
    </head>
 
    <body>
-     <h1>Clase4</h1>
-     <h1 style="background-color: blue">Otra etiqueta h1</h1>
+     <h1 id="h1Clase4" class="h1Otro">Clase 4</h1>
+     <h1 class="h1Otro">Otra etiqueta h1</h1>
+     <h1 class="h1Otro">Otra etiqueta h1 nueva</h1>
+     <h2 class="h1Otro">Una etiqueta h2</h2>
+     <h2>Otra etiqueta h2</h2>
+
+     <div>
+        <h2>Una h2 dentro de un div</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, quo molestiae blanditiis unde doloremque maxime perspiciatis, necessitatibus similique architecto voluptas tempora beatae sit deserunt illum. Odit corrupti ullam rerum pariatur?
+        </p>
+     </div>
+
+     <div>
+        <h1>Una h1 dentro de un div</h1>
+     </div>
      <a href="../index.html" title="Boton para volver al Index">Volver</a>
    </body>
 </html>
